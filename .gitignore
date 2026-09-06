@@ -1,0 +1,100 @@
+# Ignorar arquivos sensíveis e desnecessários
+
+# Credenciais e Ambiente
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+credentials.json
+aws_credentials
+
+# Variáveis de Ambiente
+.aws/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Dados locais
+*.csv
+!03_arquivos_exemplo/*.csv
+*.parquet
+*.pkl
+
+# Cache
+.pytest_cache/
+.cache/
+
+# Resultados de queries
+query_results/
+*.sql.result
+
+# Arquivos temporários
+temp/
+tmp/
+*.tmp
+
+# Arquivos do SO
+Thumbs.db
+.DS_Store
+
+# IDE
+.vscode/settings.json
+.idea/
+
+# Node (se usar)
+node_modules/
+npm-debug.log
+
+# Docker (se usar)
+docker-compose.override.yml
+
+# Secrets
+secrets/
+.secrets/
+secrets.txt
+
+# Backups
+*.bak
+*.backup
