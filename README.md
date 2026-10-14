@@ -189,5 +189,5 @@ Não inclua credenciais, dados pessoais ou arquivos gerados pelo ambiente no com
 
 Este projeto ainda não possui um arquivo `LICENSE` nem uma licença formal declarada. Até que uma licença seja escolhida, todos os direitos permanecem reservados ao autor. A licença e os termos de uso do dataset externo devem ser tratados separadamente.
 
-**Versão:** 2.0  
-**Última atualização:** 2026-09-05
+**Versão:** 2.1  
+**Última atualização:** 2026-10-13
